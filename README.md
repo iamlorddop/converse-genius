@@ -1,1 +1,3 @@
-# converse-genius
+# ConverseGenius
+
+AI code assistant for IDE.
