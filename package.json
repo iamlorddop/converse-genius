@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "commit": "git cz",
+    "prepare": "husky"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./commitizen.js"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "cz-customizable": "^7.2.1",
+    "husky": "^9.1.7"
+  }
+}
